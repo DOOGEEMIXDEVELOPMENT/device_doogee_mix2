@@ -1,13 +1,13 @@
 [
   {
-    "target_path": "kernel/doogee/mix",
-    "repository":  "jmpfbmx/android_kernel_doogee_mix",
+    "target_path": "kernel/doogee/mix2",
+    "repository":  "jmpfbmx/android_kernel_doogee_mix2",
     "remote":      "github",
     "revision":    "4.4.95"
   },
   {
-    "target_path": "vendor/doogee/mix",
-    "repository":  "jmpfbmx/android_vendor_doogee_mix",
+    "target_path": "vendor/doogee/mix2",
+    "repository":  "jmpfbmx/android_vendor_doogee_mix2",
     "remote":      "github",
     "revision":    "LOS-14.1"
   }

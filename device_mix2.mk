@@ -2,9 +2,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-LOCAL_PATH := device/doogee/mix
+LOCAL_PATH := device/doogee/mix2
 
-$(call inherit-product-if-exists, vendor/doogee/mix/mix-vendor.mk)
+$(call inherit-product-if-exists, vendor/doogee/mix2/mix2-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay # enable this to be able overlay a default wallpaper
@@ -65,8 +65,8 @@ PRODUCT_COPY_FILES += \
 	frameworks/av/media/libstagefright/data/media_codecs_google_audio.xml:system/etc/media_codecs_google_audio.xml \
 	frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
 	frameworks/av/media/libstagefright/data/media_codecs_google_video_le.xml:system/etc/media_codecs_google_video_le.xml \
-	device/doogee/mix/configs/media_profiles.xml:system/etc/media_profiles.xml \
-	device/doogee/mix/configs/media_codecs_ffmpeg.xml:system/etc/media_codecs_ffmpeg.xml
+	device/doogee/mix2/configs/media_profiles.xml:system/etc/media_profiles.xml \
+	device/doogee/mix2/configs/media_codecs_ffmpeg.xml:system/etc/media_codecs_ffmpeg.xml
 
 PRODUCT_COPY_FILES += \
     frameworks/av/services/audiopolicy/config/audio_policy_volumes.xml:/system/etc/audio_policy_volumes.xml \

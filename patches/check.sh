@@ -10,7 +10,7 @@ for dir in $dirs ; do
 	cd $rootdirectory
 	cd $dir
         echo "\n${RED}Applying ${NC}$dir ${RED}patches...${NC}\n"
-	git apply -v --check $rootdirectory/device/doogee/mix/patches/$dir/*.patch
+	git apply -v --check $rootdirectory/device/doogee/mix2/patches/$dir/*.patch
 done
 
 # -----------------------------------

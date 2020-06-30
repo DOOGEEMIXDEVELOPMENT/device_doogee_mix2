@@ -15,21 +15,21 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := mix
+PRODUCT_RELEASE_NAME := mix2
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/doogee/mix/device_mix.mk)
-# $(call inherit-product, device/doogee/mix/prop.mk)
+$(call inherit-product, device/doogee/mix2/device_mix2.mk)
+# $(call inherit-product, device/doogee/mix2/prop.mk)
 
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := mix
-PRODUCT_NAME := lineage_mix
+PRODUCT_DEVICE := mix2
+PRODUCT_NAME := lineage_mix2
 PRODUCT_BRAND := DOOGEE
 PRODUCT_MODEL := DOOGEE MIX
 PRODUCT_MANUFACTURER := DOOGEE

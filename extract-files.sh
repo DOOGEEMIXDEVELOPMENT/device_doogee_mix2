@@ -6,7 +6,7 @@
 ## $2 specifies the zip file to extract from (default = ../../../${DEVICE}_update.zip)
 
 VENDOR=doogee
-DEVICE=mix
+DEVICE=mix2
 BASE=../../../vendor/$VENDOR/$DEVICE
 
 rm -rf $BASE/*

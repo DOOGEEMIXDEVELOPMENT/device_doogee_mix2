@@ -1,7 +1,7 @@
 # inherit from the proprietary version
--include vendor/doogee/mix/BoardConfigVendor.mk
+-include vendor/doogee/mix2/BoardConfigVendor.mk
 
-LOCAL_PATH := device/doogee/mix
+LOCAL_PATH := device/doogee/mix2
 KERNEL_PREBUILT := true
 
 # Platform
@@ -43,7 +43,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_CONFIG := mix_lineage_defconfig
+TARGET_KERNEL_CONFIG := mix2_lineage_defconfig
 TARGET_KERNEL_SOURCE := kernel-4.4
 endif
 BOARD_KERNEL_BASE := 0x40078000
@@ -66,7 +66,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 TARGET_KMODULES := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := mix,MIX
+TARGET_OTA_ASSERT_DEVICE := mix2,MIX2
 
 # Disable memcpy opt (for audio libraries)
 TARGET_CPU_MEMCPY_OPT_DISABLE := true
@@ -79,7 +79,7 @@ BOARD_GLOBAL_CFLAGS += -DDISABLE_HW_ID_MATCH_CHECK
 
 
 # Display
-BOARD_EGL_CFG := device/doogee/mix/configs/egl.cfg
+BOARD_EGL_CFG := device/doogee/mix2/configs/egl.cfg
 USE_OPENGL_RENDERER:=true
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true

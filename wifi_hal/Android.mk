@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter mix, $(TARGET_DEVICE)),)
+ifneq ($(filter mix2, $(TARGET_DEVICE)),)
 
 # Make the HAL library
 # ============================================================

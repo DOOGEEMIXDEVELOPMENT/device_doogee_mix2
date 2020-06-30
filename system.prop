@@ -1,6 +1,6 @@
-# from device/doogee/mix
+# from device/doogee/mix2
 #
-# system.prop for DOOGEE MIX
+# system.prop for DOOGEE MIX 2
 #
 
 rild.libpath=mtk-ril.so
