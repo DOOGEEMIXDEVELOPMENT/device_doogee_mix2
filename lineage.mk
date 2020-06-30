@@ -24,8 +24,8 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/doogee/mix2/device_mix2.mk)
 # $(call inherit-product, device/doogee/mix2/prop.mk)
 
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_WIDTH := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mix2
