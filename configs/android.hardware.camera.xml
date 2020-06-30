@@ -21,9 +21,9 @@
     <feature name="android.hardware.camera.autofocus" />
     <feature name="android.hardware.camera.flash" />
     <feature name="android.hardware.camera.front" />
-    <feature name="android.hardware.camera.level.full" />
+    <!--<feature name="android.hardware.camera.level.full" />
     <feature name="android.hardware.camera.capability.manual_sensor" />
     <feature name="android.hardware.camera.capability.manual_post_processing" />
-    <feature name="android.hardware.camera.capability.raw" />
+    <feature name="android.hardware.camera.capability.raw" />-->
     <feature name="android.hardware.camera.any" />
 </permissions>
